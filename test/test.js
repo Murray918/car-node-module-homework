@@ -1,7 +1,7 @@
 const Car = require('../Car');
-const chai = require('chai');
+// const chai = require('chai');
 
-const should = chai.should();
+// const should = chai.should();
 const machFive = new Car('red', true);
 const jalopy = new Car('brown', false);
 
