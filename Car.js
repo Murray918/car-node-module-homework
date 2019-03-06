@@ -1,12 +1,14 @@
-let Car = function(color, convertible) {
-    this.color = color
-    this.convertible = convertible
-    this.speed = 0
-}
-Car.prototype.accelerate = function(speed){
-	this.speed += speed
-}
-Car.prototype.decelerate = function(speed){
-	this.speed -= speed
+class Car {
+    constructor(color, convertible) {
+        this.color = color
+        this.convertible = convertible
+        this.speed = 0
+    }
+    accelerate(speed) {
+        this.speed += speed
+    }
+    decelerate(speed) {
+        this.speed -= speed
+    }
 }
 module.exports = Car
